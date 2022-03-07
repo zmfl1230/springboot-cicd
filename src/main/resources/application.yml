@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:6603/CICD?useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: cicd
+    password: cicd
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
