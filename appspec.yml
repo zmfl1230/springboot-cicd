@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+hooks:
+  ApplicationStop:
+    kill_process.sh
+  ApplicationStart:
+    run_application.sh

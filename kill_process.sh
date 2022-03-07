@@ -1,0 +1,1 @@
+sudo kill -f 'java -jar'
